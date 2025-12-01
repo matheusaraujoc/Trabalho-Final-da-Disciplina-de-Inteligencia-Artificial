@@ -40,7 +40,7 @@ O projeto foi desenvolvido em **Python** utilizando o **Google Colab**.
 
 O modelo supervisionado (Random Forest) apresentou desempenho superior para este cenário específico.
 
-| Métrica | Random Forest 🌲 | Isolation Forest 🔍 |
+| Métrica | Random Forest | Isolation Forest |
 | :--- | :---: | :---: |
 | **Recall (Sensibilidade)** | **88.46%** | 57.69% |
 | **Precision** | **95.83%** | 40.54% |
