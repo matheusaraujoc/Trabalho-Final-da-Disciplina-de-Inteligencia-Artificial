@@ -1,0 +1,311 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "RobustScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "IsolationForest",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_auc_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "ConfusionMatrixDisplay",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_recall_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "auc",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "count_classes",
+        "kind": 5,
+        "importPath": "celula1-importacaoeanalise",
+        "description": "celula1-importacaoeanalise",
+        "peekOfCode": "count_classes = df['Class'].value_counts()\nfraud_share = (count_classes[1] / len(df)) * 100 # [cite: 20]\nprint(f\"\\nContagem de Fraudes: {count_classes[1]}\")\nprint(f\"Contagem de Normais: {count_classes[0]}\")\nprint(f\"Porcentagem de Fraudes: {fraud_share:.4f}%\") # [cite: 21]\n# Gráfico de Desbalanceamento\nplt.figure(figsize=(6,4))\nsns.countplot(x='Class', data=df) # [cite: 19]\nplt.title('Distribuição de Classes (0: Normal, 1: Fraude)')\nplt.show()",
+        "detail": "celula1-importacaoeanalise",
+        "documentation": {}
+    },
+    {
+        "label": "fraud_share",
+        "kind": 5,
+        "importPath": "celula1-importacaoeanalise",
+        "description": "celula1-importacaoeanalise",
+        "peekOfCode": "fraud_share = (count_classes[1] / len(df)) * 100 # [cite: 20]\nprint(f\"\\nContagem de Fraudes: {count_classes[1]}\")\nprint(f\"Contagem de Normais: {count_classes[0]}\")\nprint(f\"Porcentagem de Fraudes: {fraud_share:.4f}%\") # [cite: 21]\n# Gráfico de Desbalanceamento\nplt.figure(figsize=(6,4))\nsns.countplot(x='Class', data=df) # [cite: 19]\nplt.title('Distribuição de Classes (0: Normal, 1: Fraude)')\nplt.show()\n# 4. Análise de Features (Time e Amount)",
+        "detail": "celula1-importacaoeanalise",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "celula2-preprocessamento",
+        "description": "celula2-preprocessamento",
+        "peekOfCode": "X = df.drop('Class', axis=1) # [cite: 43]\ny = df['Class'] # [cite: 44]\n# 3. Divisão Treino e Teste (Estratificada)\n# stratify=y garante a proporção das fraudes\ntry:\n    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, stratify=y, random_state=42) # [cite: 51]\n    print(\"\\nDivisão concluída com sucesso:\")\n    print(f\"Treino: {X_train.shape}, Teste: {X_test.shape}\")\n    print(f\"Fraudes no Treino: {y_train.sum()} ({y_train.sum()/len(y_train):.4%})\")\n    print(f\"Fraudes no Teste: {y_test.sum()} ({y_test.sum()/len(y_test):.4%})\")",
+        "detail": "celula2-preprocessamento",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "celula2-preprocessamento",
+        "description": "celula2-preprocessamento",
+        "peekOfCode": "y = df['Class'] # [cite: 44]\n# 3. Divisão Treino e Teste (Estratificada)\n# stratify=y garante a proporção das fraudes\ntry:\n    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, stratify=y, random_state=42) # [cite: 51]\n    print(\"\\nDivisão concluída com sucesso:\")\n    print(f\"Treino: {X_train.shape}, Teste: {X_test.shape}\")\n    print(f\"Fraudes no Treino: {y_train.sum()} ({y_train.sum()/len(y_train):.4%})\")\n    print(f\"Fraudes no Teste: {y_test.sum()} ({y_test.sum()/len(y_test):.4%})\")\nexcept ValueError as e:",
+        "detail": "celula2-preprocessamento",
+        "documentation": {}
+    },
+    {
+        "label": "contamination_rate",
+        "kind": 5,
+        "importPath": "celula3-treinamentodosmodelos",
+        "description": "celula3-treinamentodosmodelos",
+        "peekOfCode": "contamination_rate = len(df[df['Class'] == 1]) / len(df) # Aprox 0.0017\nprint(f\"Taxa de contaminação calculada: {contamination_rate:.5f}\") # \n# --- MODELO 1: Random Forest (Supervisionado) ---\nprint(\"\\nTreinando Random Forest...\")\n# class_weight='balanced' ajuda o modelo a dar atenção à classe minoritária [cite: 58]\nrf_model = RandomForestClassifier(n_estimators=100, class_weight='balanced', random_state=42, n_jobs=-1) # [cite: 60]\nrf_model.fit(X_train, y_train)\n# --- MODELO 2: Isolation Forest (Não Supervisionado) ---\nprint(\"Treinando Isolation Forest...\")\n# Note que treinamos apenas com X_train, sem y_train [cite: 69]",
+        "detail": "celula3-treinamentodosmodelos",
+        "documentation": {}
+    },
+    {
+        "label": "rf_model",
+        "kind": 5,
+        "importPath": "celula3-treinamentodosmodelos",
+        "description": "celula3-treinamentodosmodelos",
+        "peekOfCode": "rf_model = RandomForestClassifier(n_estimators=100, class_weight='balanced', random_state=42, n_jobs=-1) # [cite: 60]\nrf_model.fit(X_train, y_train)\n# --- MODELO 2: Isolation Forest (Não Supervisionado) ---\nprint(\"Treinando Isolation Forest...\")\n# Note que treinamos apenas com X_train, sem y_train [cite: 69]\niso_model = IsolationForest(n_estimators=100, contamination=contamination_rate, random_state=42, n_jobs=-1) # [cite: 68]\niso_model.fit(X_train)\nprint(\"Modelos treinados com sucesso!\")",
+        "detail": "celula3-treinamentodosmodelos",
+        "documentation": {}
+    },
+    {
+        "label": "iso_model",
+        "kind": 5,
+        "importPath": "celula3-treinamentodosmodelos",
+        "description": "celula3-treinamentodosmodelos",
+        "peekOfCode": "iso_model = IsolationForest(n_estimators=100, contamination=contamination_rate, random_state=42, n_jobs=-1) # [cite: 68]\niso_model.fit(X_train)\nprint(\"Modelos treinados com sucesso!\")",
+        "detail": "celula3-treinamentodosmodelos",
+        "documentation": {}
+    },
+    {
+        "label": "avaliar_modelo",
+        "kind": 2,
+        "importPath": "celula4-avaliacaoevisualizacao",
+        "description": "celula4-avaliacaoevisualizacao",
+        "peekOfCode": "def avaliar_modelo(y_true, y_pred, nome_modelo):\n    print(f\"--- Resultados para: {nome_modelo} ---\")\n    print(classification_report(y_true, y_pred)) # [cite: 81, 84]\n    print(f\"AUC-ROC Score: {roc_auc_score(y_true, y_pred):.4f}\") # [cite: 82]\n    # Matriz de Confusão Visual\n    cm = confusion_matrix(y_true, y_pred)\n    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=['Normal', 'Fraude'])\n    fig, ax = plt.subplots(figsize=(6, 6))\n    disp.plot(ax=ax, cmap='Blues', values_format='d')\n    plt.title(f'Matriz de Confusão - {nome_modelo}')",
+        "detail": "celula4-avaliacaoevisualizacao",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_rf",
+        "kind": 5,
+        "importPath": "celula4-avaliacaoevisualizacao",
+        "description": "celula4-avaliacaoevisualizacao",
+        "peekOfCode": "y_pred_rf = rf_model.predict(X_test) # [cite: 74]\n# 2. Previsões Isolation Forest\ny_pred_iso_raw = iso_model.predict(X_test) # [cite: 75]\n# Mapeamento: -1 (Anomalia) vira 1 (Fraude), 1 (Normal) vira 0 [cite: 78]\ny_pred_iso = [1 if x == -1 else 0 for x in y_pred_iso_raw]\n# 3. Gerar Relatórios\navaliar_modelo(y_test, y_pred_rf, \"Random Forest (Supervisionado)\")\navaliar_modelo(y_test, y_pred_iso, \"Isolation Forest (Não Supervisionado)\")\n# Análise Comparativa Rápida\nprint(\"RESUMO DA ANÁLISE:\")",
+        "detail": "celula4-avaliacaoevisualizacao",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_iso_raw",
+        "kind": 5,
+        "importPath": "celula4-avaliacaoevisualizacao",
+        "description": "celula4-avaliacaoevisualizacao",
+        "peekOfCode": "y_pred_iso_raw = iso_model.predict(X_test) # [cite: 75]\n# Mapeamento: -1 (Anomalia) vira 1 (Fraude), 1 (Normal) vira 0 [cite: 78]\ny_pred_iso = [1 if x == -1 else 0 for x in y_pred_iso_raw]\n# 3. Gerar Relatórios\navaliar_modelo(y_test, y_pred_rf, \"Random Forest (Supervisionado)\")\navaliar_modelo(y_test, y_pred_iso, \"Isolation Forest (Não Supervisionado)\")\n# Análise Comparativa Rápida\nprint(\"RESUMO DA ANÁLISE:\")\nprint(\"Observe o 'Recall' na classe 1 (Fraude).\")\nprint(\"O Random Forest tende a ter melhor precisão geral.\")",
+        "detail": "celula4-avaliacaoevisualizacao",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred_iso",
+        "kind": 5,
+        "importPath": "celula4-avaliacaoevisualizacao",
+        "description": "celula4-avaliacaoevisualizacao",
+        "peekOfCode": "y_pred_iso = [1 if x == -1 else 0 for x in y_pred_iso_raw]\n# 3. Gerar Relatórios\navaliar_modelo(y_test, y_pred_rf, \"Random Forest (Supervisionado)\")\navaliar_modelo(y_test, y_pred_iso, \"Isolation Forest (Não Supervisionado)\")\n# Análise Comparativa Rápida\nprint(\"RESUMO DA ANÁLISE:\")\nprint(\"Observe o 'Recall' na classe 1 (Fraude).\")\nprint(\"O Random Forest tende a ter melhor precisão geral.\")\nprint(\"O Isolation Forest serve para detecção de anomalias sem precisar de rótulos prévios.\")",
+        "detail": "celula4-avaliacaoevisualizacao",
+        "documentation": {}
+    },
+    {
+        "label": "get_metrics",
+        "kind": 2,
+        "importPath": "celula5-relatoriofinal",
+        "description": "celula5-relatoriofinal",
+        "peekOfCode": "def get_metrics(y_true, y_pred, model_name):\n    return {\n        \"Modelo\": model_name,\n        \"Acurácia\": accuracy_score(y_true, y_pred),\n        \"Precision\": precision_score(y_true, y_pred),\n        \"Recall\": recall_score(y_true, y_pred),\n        \"F1-Score\": f1_score(y_true, y_pred),\n        \"AUC-ROC\": roc_auc_score(y_true, y_pred)\n    }\n# Coletando dados (assumindo que y_pred_rf e y_pred_iso foram gerados na Célula 4)",
+        "detail": "celula5-relatoriofinal",
+        "documentation": {}
+    },
+    {
+        "label": "metrics_rf",
+        "kind": 5,
+        "importPath": "celula5-relatoriofinal",
+        "description": "celula5-relatoriofinal",
+        "peekOfCode": "metrics_rf = get_metrics(y_test, y_pred_rf, \"Random Forest\")\nmetrics_iso = get_metrics(y_test, y_pred_iso, \"Isolation Forest\")\n# Criando DataFrame Comparativo\ndf_results = pd.DataFrame([metrics_rf, metrics_iso])\ndf_results.set_index(\"Modelo\", inplace=True)\nprint(\"--- TABELA COMPARATIVA DE RESULTADOS ---\")\ndisplay(df_results) # Exibe a tabela formatada no Colab\n# 2. Visualização Gráfica: Curvas Precision-Recall (Crucial para Desbalanceamento)\nplt.figure(figsize=(12, 5))\n# Gráfico 1: Comparação de Recall (Capacidade de encontrar fraudes)",
+        "detail": "celula5-relatoriofinal",
+        "documentation": {}
+    },
+    {
+        "label": "metrics_iso",
+        "kind": 5,
+        "importPath": "celula5-relatoriofinal",
+        "description": "celula5-relatoriofinal",
+        "peekOfCode": "metrics_iso = get_metrics(y_test, y_pred_iso, \"Isolation Forest\")\n# Criando DataFrame Comparativo\ndf_results = pd.DataFrame([metrics_rf, metrics_iso])\ndf_results.set_index(\"Modelo\", inplace=True)\nprint(\"--- TABELA COMPARATIVA DE RESULTADOS ---\")\ndisplay(df_results) # Exibe a tabela formatada no Colab\n# 2. Visualização Gráfica: Curvas Precision-Recall (Crucial para Desbalanceamento)\nplt.figure(figsize=(12, 5))\n# Gráfico 1: Comparação de Recall (Capacidade de encontrar fraudes)\nplt.subplot(1, 2, 1)",
+        "detail": "celula5-relatoriofinal",
+        "documentation": {}
+    },
+    {
+        "label": "df_results",
+        "kind": 5,
+        "importPath": "celula5-relatoriofinal",
+        "description": "celula5-relatoriofinal",
+        "peekOfCode": "df_results = pd.DataFrame([metrics_rf, metrics_iso])\ndf_results.set_index(\"Modelo\", inplace=True)\nprint(\"--- TABELA COMPARATIVA DE RESULTADOS ---\")\ndisplay(df_results) # Exibe a tabela formatada no Colab\n# 2. Visualização Gráfica: Curvas Precision-Recall (Crucial para Desbalanceamento)\nplt.figure(figsize=(12, 5))\n# Gráfico 1: Comparação de Recall (Capacidade de encontrar fraudes)\nplt.subplot(1, 2, 1)\nsns.barplot(x=df_results.index, y=df_results['Recall'], palette='viridis')\nplt.title('Comparação de Recall (Sensibilidade)')",
+        "detail": "celula5-relatoriofinal",
+        "documentation": {}
+    },
+    {
+        "label": "best_recall",
+        "kind": 5,
+        "importPath": "celula5-relatoriofinal",
+        "description": "celula5-relatoriofinal",
+        "peekOfCode": "best_recall = df_results['Recall'].idxmax()\nbest_f1 = df_results['F1-Score'].idxmax()\nprint(f\"Análise dos Resultados:\")\nprint(f\"1. O modelo {best_recall} apresentou o maior Recall ({df_results.loc[best_recall, 'Recall']:.2f}),\")\nprint(f\"   o que significa que ele foi o melhor em 'capturar' as fraudes que realmente aconteceram.\")\nprint(f\"2. O modelo {best_f1} obteve o melhor equilíbrio (F1-Score: {df_results.loc[best_f1, 'F1-Score']:.2f}),\")\nprint(f\"   indicando uma relação mais estável entre detectar fraudes e não gerar alarmes falsos excessivos.\")\nprint(\"3. O Random Forest, por ser supervisionado, tende a ter métricas superiores, mas depende de dados rotulados.\")\nprint(\"   O Isolation Forest é valioso em cenários onde não sabemos previamente o que é uma fraude (anomalia nova).\")",
+        "detail": "celula5-relatoriofinal",
+        "documentation": {}
+    },
+    {
+        "label": "best_f1",
+        "kind": 5,
+        "importPath": "celula5-relatoriofinal",
+        "description": "celula5-relatoriofinal",
+        "peekOfCode": "best_f1 = df_results['F1-Score'].idxmax()\nprint(f\"Análise dos Resultados:\")\nprint(f\"1. O modelo {best_recall} apresentou o maior Recall ({df_results.loc[best_recall, 'Recall']:.2f}),\")\nprint(f\"   o que significa que ele foi o melhor em 'capturar' as fraudes que realmente aconteceram.\")\nprint(f\"2. O modelo {best_f1} obteve o melhor equilíbrio (F1-Score: {df_results.loc[best_f1, 'F1-Score']:.2f}),\")\nprint(f\"   indicando uma relação mais estável entre detectar fraudes e não gerar alarmes falsos excessivos.\")\nprint(\"3. O Random Forest, por ser supervisionado, tende a ter métricas superiores, mas depende de dados rotulados.\")\nprint(\"   O Isolation Forest é valioso em cenários onde não sabemos previamente o que é uma fraude (anomalia nova).\")",
+        "detail": "celula5-relatoriofinal",
+        "documentation": {}
+    }
+]
