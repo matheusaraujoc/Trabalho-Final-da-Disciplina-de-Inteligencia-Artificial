@@ -65,7 +65,7 @@ git clone https://github.com/matheusaraujoc/Trabalho-Final-da-Disciplina-de-Inte
 ## Autores
 
   * **Matheus Araújo Carvalho** 
-  * **Francisco das Chagas Correi Neto** 
+  * **Francisco das Chagas Correia Neto** 
   * **Arthur Dutra Costa Lima**
 
 #### Google Colab: 
